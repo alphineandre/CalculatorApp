@@ -63,12 +63,11 @@ CalculatorApp
 
 ## 📸 UI Preview
 
-_(Attach a screenshot of the GUI here)_
+![Calculator](https://github.com/user-attachments/assets/4ef4a692-b752-4078-9aa0-a299abc01870)
 
 ## ✅ Unit Test Screenshot
 
-_![JUnit Results](https://github.com/user-attachments/assets/53486ae4-4e80-4330-bc3b-f46714c07937)
-
+![JUnit Results](https://github.com/user-attachments/assets/53486ae4-4e80-4330-bc3b-f46714c07937)
 
 ## 📜 License
 

@@ -1,68 +1,74 @@
-CalculatorApp
+# CalculatorApp
 
-A simple Java-based calculator application with JUnit tests.
+A Java-based calculator application with a **graphical user interface (GUI)** and **JUnit tests** for validation.
 
-Features
+## 📌 Features
 
-Perform basic arithmetic operations: Addition, Subtraction, Multiplication, and Division.
+✅ Perform basic arithmetic operations:
+- **Addition (+), Subtraction (-), Multiplication (*), Division (/)**
+- **Modulus (%), Exponentiation (^), Square Root (√)**
 
-Includes JUnit 5 tests to validate functionality.
+✅ **Graphical User Interface (GUI)** using Java Swing  
+✅ **Error handling** (e.g., division by zero, invalid input)  
+✅ **JUnit 5 tests (10+ test cases)** covering all operations  
 
-Technologies Used
+## 🛠️ Technologies Used
 
-Java
+- **Java**
+- **Swing (GUI)**
+- **JUnit 5 (Testing Framework)**
+- **IntelliJ IDEA**
 
-JUnit 5
+## 📂 Project Structure
 
-IntelliJ IDEA
-
-Project Structure
-
+```
 CalculatorApp
 │── src
 │   └── com
 │       └── calculatorapp
 │           ├── Calculator.java
+│           ├── CalculatorGUI.java
 │           ├── Main.java
 │── test
     └── com
         └── calculatorapp
             ├── CalculatorTest.java
+```
 
-Getting Started
+## 🚀 Getting Started
 
-Prerequisites
+### 1️⃣ Prerequisites
 
-Install Java JDK
+- Install [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
+- Install [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+- Ensure JUnit 5 is set up in your project
 
-Install IntelliJ IDEA
+### 2️⃣ Running the Application
 
-Ensure JUnit 5 is set up in your project
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/CalculatorApp.git
+   ```
+2. **Open the project in IntelliJ IDEA.**
+3. **Run `CalculatorGUI.java`** to start the calculator.
 
-Running the Application
+### 3️⃣ Running Tests
 
-Clone the repository:
+1. Open `CalculatorTest.java`.
+2. Right-click and select **Run 'CalculatorTest'**.
+3. Alternatively, use the terminal:
+   ```sh
+   mvn test   # If using Maven
+   ```
 
-git clone https://github.com/yourusername/CalculatorApp.git
+## 📸 UI Preview
 
-Open the project in IntelliJ IDEA.
+![Calculator](https://github.com/user-attachments/assets/4ef4a692-b752-4078-9aa0-a299abc01870)
 
-Run Main.java to test the calculator functionality.
+## ✅ Unit Test Screenshot
 
-Running Tests
+![JUnit Results](https://github.com/user-attachments/assets/53486ae4-4e80-4330-bc3b-f46714c07937)
 
-Open CalculatorTest.java.
+## 📜 License
 
-Right-click and select Run 'CalculatorTest'.
-
-Alternatively, use the terminal:
-
-mvn test   # If using Maven
-
-Unit Test Screenshot
-
-![Calculator Test results](https://github.com/user-attachments/assets/87afc2ab-9925-4df3-b70b-b7587e545ba1)
-
-License
-
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.

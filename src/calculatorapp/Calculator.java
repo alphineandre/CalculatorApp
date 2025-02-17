@@ -1,16 +1,26 @@
 package calculatorapp;
 
 public class Calculator {
-    public double add(double a, double b) {
-        return a + b;
+    // Addition now supports multiple numbers
+    public double add(double... numbers) {
+        double sum = 0;
+        for (double num : numbers) {
+            sum += num;
+        }
+        return sum;
     }
 
     public double subtract(double a, double b) {
         return a - b;
     }
 
-    public double multiply(double a, double b) {
-        return a * b;
+    // Multiplication now supports multiple numbers
+    public double multiply(double... numbers) {
+        double result = 1;
+        for (double num : numbers) {
+            result *= num;
+        }
+        return result;
     }
 
     public double divide(double a, double b) {

@@ -8,8 +8,9 @@ public class CalculatorTest {
 
     @Test
     public void testAddition() {
-        assertEquals(10, calculator.add(7, 3));
-        assertEquals(-2, calculator.add(-5, 3));
+        assertEquals(3, calculator.add(1, 2));
+        assertEquals(-2, calculator.add(-1, -1));
+        assertEquals(15, calculator.add(1, 2, 3, 4, 5));
     }
 
     @Test
@@ -20,8 +21,9 @@ public class CalculatorTest {
 
     @Test
     public void testMultiplication() {
-        assertEquals(21, calculator.multiply(7, 3));
-        assertEquals(-15, calculator.multiply(-5, 3));
+        assertEquals(3, calculator.multiply(1, 3));
+        assertEquals(-3, calculator.multiply(-1, 3));
+        assertEquals(120, calculator.multiply(1, 2, 3, 4, 5));
     }
 
     @Test
